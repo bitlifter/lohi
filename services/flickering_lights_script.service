@@ -2,7 +2,7 @@
 Description=flickering lights Script
 
 [Service]
-ExecStart=/usr/bin/python3 /home/car-b-q/repo/lohi/python/flickering_lights-master.py
+ExecStart=/usr/bin/python3 /home/repo/lohi/python/flickering_lights-master.py
 
 [Install]
 WantedBy=multi-user.target
