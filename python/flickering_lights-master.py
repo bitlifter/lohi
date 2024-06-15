@@ -9,7 +9,7 @@ try:
     while True:
         # Set the LED to a constant brightness of 30% for a random duration between 1 and 3 minutes
         led.value = 0.3
-        sleep(random.uniform(6, 18))  # Convert minutes to seconds
+        sleep(random.uniform(5, 15))  # Convert minutes to seconds
 
         # Simulate erratic headlight behavior for a random duration between 10 and 15 seconds
         end_time = time() + random.uniform(10, 15)
